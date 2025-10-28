@@ -37,27 +37,32 @@ Esto generará el usuario administrador. Luego elimina el archivo crear_admin.ph
 
 ## 📁 Estructura del proyecto
 crud-alojamientos/
-├── alojamientos/
+├── alojamientos/          # CRUD de alojamientos
 │   ├── create.php
 │   ├── edit.php
 │   └── delete.php
-├── auth/
+│
+├── auth/                  # Autenticación (login/register/logout)
 │   ├── login.php
 │   ├── logout.php
 │   └── register.php
-├── includes/
+│
+├── includes/              # Configuración y utilidades
 │   ├── admin_only.php
 │   ├── auth.php
 │   ├── config.php
 │   ├── db.php
 │   └── header.php
-├── reservas/
+│
+├── reservas/              # Módulo de reservas
 │   ├── add.php
 │   └── mis_reservas.php
-├── cuenta.php
-├── index.php
-├── crear_admin.php
-└── crud_alojamientos.sql
+│
+├── cuenta.php             # Perfil del usuario
+├── index.php              # Página principal (landing)
+├── crear_admin.php        # Script para crear admin (opcional)
+└── crud_alojamientos.sql  # Archivo SQL de la base de datos
+
 
 ## 🧩 Base de datos
 La base incluye tres tablas principales: usuarios, alojamientos y reservas.
