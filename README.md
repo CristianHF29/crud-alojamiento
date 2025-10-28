@@ -98,5 +98,4 @@ Este proyecto se distribuye bajo la licencia MIT. Eres libre de usarlo, modifica
 
 ## 👨‍💻 Autor
 **Cristian Arturo Hernández Flores**  
-Proyecto académico – Universidad Don Bosco 🇸🇻  
-Correo: cristianhernandez@spectrumvoip.com
+Proyecto académico – Universidad Don Bosco 🇸🇻
